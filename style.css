@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://source.unsplash.com/1600x900/?nature,water')
+    no-repeat center center/cover fixed;
+}
+.container {
+  background-color: #000000d0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+h1 {
+  color: rgb(179, 131, 226);
+  font-size: 6.5rem;
+  text-align: center;
+  margin-top: 150px;
+}
+
+form {
+  box-shadow: 0 6px 15px rgb(179, 131, 226);
+  max-width: 100%;
+  margin: 20px;
+}
+
+.input {
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+}
+
+.input::placeholder {
+  color: #b6b6b6;
+}
+.input:focus {
+  outline: none;
+}
+
+.todos {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.todos li {
+  border-top: 1px solid rgb(179, 131, 226);
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.todos li.completed {
+  color: #b6b6b6;
+  text-decoration: line-through;
+}
+
+small {
+  color: rgb(179, 131, 226);
+  margin-top: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.footer {
+  font-family: inherit;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+span {
+  color: #ff1e42;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
