@@ -1,41 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A simple ToDo App" />
-    <title>ToDo App</title>
-    <link
-      rel="icon"
-      href="https://cdn.dribbble.com/users/2806759/screenshots/5599329/new.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <div class="container">
-      <h1>todos</h1>
-      <form id="form">
-        <input
-          type="text"
-          id="input"
-          class="input"
-          placeholder="Enter your todo"
-          autocomplete="off"
-        />
-        <ul class="todos" id="todos"></ul>
-      </form>
-      <small
-        >Left click to toggle complete. <br />Right click to delete the
-        todo.</small
-      >
-      <footer class="footer">
-        <small
-          >Made with <span>❤</span> by
-          <a href="https://alimubashir.com/" target="_blank">Soaliha Ayub</a>
-        </small>
-      </footer>
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle">🌙 Dark Mode</button>
+  <h1>todos</h1>
+  <form id="form">
+    <input type="text" id="input" placeholder="Enter your todo" autocomplete="off">
+  </form>
+  <ul id="todos"></ul>
+  <small>Left click to toggle completed.<br>Right click to delete.<br>Double click to edit.</small>
+  
+  <script src="script.js"></script>
+</body>
 </html>
